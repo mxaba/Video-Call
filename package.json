@@ -1,0 +1,32 @@
+{
+  "name": "Video-Call",
+  "version": "0.0.1",
+  "description": "A conference call implementation using WebRTC, Socket.io and Node.js.",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxaba/Video-Call.git"
+  },
+  "keywords": [
+    "LiveStream",
+    "Server"
+  ],
+  "author": "Mcebo <samuel.mcebo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxaba/Video-Call/issues"
+  },
+  "homepage": "https://github.com/mxaba/Video-Call#readme"
+}
